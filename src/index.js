@@ -8,7 +8,7 @@ import rootReducer from "./redux/reducer";
 import { Provider } from "react-redux";
 import App from "./Components/App";
 import thunk from "redux-thunk";
-import { database } from "./database/config";
+// import { database } from "./database/config";
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
